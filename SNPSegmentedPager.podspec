@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SNPSegmentedPager'
-  s.version          = '0.4.0'
+  s.version          = '4.0.0'
   s.summary          = 'Segmented pager view with Parallax header.'
 
   s.description      = <<-DESC
@@ -33,9 +33,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = ['SNPSegmentedPager/Classes/**/*.{swift}','SNPSegmentedPager/Classes/**/*.{m}','SNPSegmentedPager/Classes/**/*.{h}']
   s.public_header_files = ['SNPSegmentedPager/**/*.{h}']
-  s.dependency 'MXPagerView', '0.2.1' 
+  s.dependency 'MXPagerView', '0.2.1'
   s.dependency 'MXParallaxHeader', '0.6.1'
-  
+
   # s.resource_bundles = {
   #   'SNPSegmentedPager' => ['SNPSegmentedPager/Assets/*.png']
   # }
