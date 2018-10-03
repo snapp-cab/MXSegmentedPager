@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SNPSegmentedPager'
-  s.version          = '0.1.1'
+  s.version          = '0.4.0'
   s.summary          = 'Segmented pager view with Parallax header.'
 
   s.description      = <<-DESC
