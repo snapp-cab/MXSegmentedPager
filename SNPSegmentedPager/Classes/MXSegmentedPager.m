@@ -29,7 +29,7 @@
 
 @interface MXSegmentedPager () <MXScrollViewDelegate, MXPagerViewDelegate, MXPagerViewDataSource>
 @property (nonatomic, strong) MXScrollView          *contentView;
-@property (nonatomic, strong) ViewSegmentControll    *segmentedControl;
+@property (nonatomic, strong) ViewSegmentControl    *segmentedControl;
 @property (nonatomic, strong) MXPagerView           *pager;
 @end
 
@@ -156,9 +156,9 @@
     return _contentView;
 }
 
-- (ViewSegmentControll *)segmentedControl {
+- (ViewSegmentControl *)segmentedControl {
     if (!_segmentedControl) {
-        _segmentedControl = [[ViewSegmentControll alloc] init];
+        _segmentedControl = [[ViewSegmentControl alloc] init];
         [_segmentedControl addTarget:self
                               action:@selector(pageControlValueChanged:)
                     forControlEvents:UIControlEventValueChanged];
@@ -228,7 +228,7 @@
 
 #pragma mark HMSegmentedControl target
 
-- (void)pageControlValueChanged:(ViewSegmentControll*)segmentedControl {
+- (void)pageControlValueChanged:(ViewSegmentControl*)segmentedControl {
     [self.pager showPageAtIndex:segmentedControl.selectedSegmentIndex animated:YES];
 }
 

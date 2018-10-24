@@ -27,7 +27,7 @@
 		6542EE36BF0E5A7E32994598741ECBCD /* Pods-SNPSegmentedPager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D869B850458B74F237363918186A2D0 /* Pods-SNPSegmentedPager_Example-dummy.m */; };
 		6618AD73EDAA2092437280F3081CD0DE /* MXPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E1BAEDB4609AF31E6B35BD93519A89 /* MXPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66F7138DB7156AF6A0DCCA335E489E49 /* SNPSegmentedPager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD611C59FF801E8AD7E83B8C80ACC36F /* SNPSegmentedPager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A5ADE672718204FCCF52DF0A46071B6 /* ViewSegmentControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5571CD663AE8392E8104D163D17DC78 /* ViewSegmentControll.swift */; };
+		6A5ADE672718204FCCF52DF0A46071B6 /* ViewSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5571CD663AE8392E8104D163D17DC78 /* ViewSegmentControl.swift */; };
 		933741DB7C6CA9CA7BD096A0BD3AFA1A /* MXParallaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD98A86A55B756815668D3BAF495EA6 /* MXParallaxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93EFD9DBF4CC4DAB6D73F2A1115860F9 /* MXParallaxHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA1B9902969A85999F3C4457580E1E6 /* MXParallaxHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95E15733F2BCC3173EC5C55D3998B717 /* MXScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98462AAA4FD970107CE5E4EA325795F1 /* MXScrollView.m */; };
@@ -90,10 +90,10 @@
 /* Begin PBXFileReference section */
 		0A890B2CB80109F6A7B68A1220CA9DE9 /* Pods-SNPSegmentedPager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SNPSegmentedPager_Tests.modulemap"; sourceTree = "<group>"; };
 		0C4E6EB48B0498E36C0AC8364CEC3648 /* Pods-SNPSegmentedPager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNPSegmentedPager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		15EBA29B674E80A030C79E538C06E019 /* Pods_SNPSegmentedPager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNPSegmentedPager_Example.framework; path = "Pods-SNPSegmentedPager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EBA29B674E80A030C79E538C06E019 /* Pods_SNPSegmentedPager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNPSegmentedPager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16250DC0413A534B3C48EC70AED79CB6 /* Pods-SNPSegmentedPager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNPSegmentedPager_Example-resources.sh"; sourceTree = "<group>"; };
 		18D53DEB69D6123147AADE3925AAE76B /* SNPSegmentedPager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNPSegmentedPager.xcconfig; sourceTree = "<group>"; };
-		194EBF4C3DA5802FF492E917F30421B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		194EBF4C3DA5802FF492E917F30421B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1FA17B590DB9D43065C799BA0846A65C /* Pods-SNPSegmentedPager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNPSegmentedPager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1FA1B9902969A85999F3C4457580E1E6 /* MXParallaxHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXParallaxHeader-umbrella.h"; sourceTree = "<group>"; };
 		297A348E3EFDA8571E4876114251CE43 /* Pods-SNPSegmentedPager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNPSegmentedPager_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,18 +118,18 @@
 		6FFEE4E95470B233120DF88947560BDF /* Pods-SNPSegmentedPager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNPSegmentedPager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		700BD0AD5255E68826111BA0D37BFA3F /* Pods-SNPSegmentedPager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNPSegmentedPager_Example-umbrella.h"; sourceTree = "<group>"; };
 		729F4422C77657F6E3F7B7C3235BC21C /* MXPagerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXPagerViewController.h; path = MXPagerView/MXPagerViewController.h; sourceTree = "<group>"; };
-		790993C739DC4F978A7C86F9A98245FC /* MXPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MXPagerView.framework; path = MXPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		790993C739DC4F978A7C86F9A98245FC /* MXPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MXPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F15AA76AAC2ED5086BCBC6F5C193BE /* Pods-SNPSegmentedPager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNPSegmentedPager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8C90FBBC1041A1EA361EAC5B47597EA5 /* MXSegmentedPager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXSegmentedPager.h; path = SNPSegmentedPager/Classes/MXSegmentedPager.h; sourceTree = "<group>"; };
 		8CEDFF64C2583ACCE938B5882DFDD419 /* MXSegmentedPagerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXSegmentedPagerController.h; path = SNPSegmentedPager/Classes/MXSegmentedPagerController.h; sourceTree = "<group>"; };
 		8D55F5CCF93CFF4FC839CD448FBA8C5D /* Pods-SNPSegmentedPager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNPSegmentedPager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8F9753E436AA109411B1F155DE7A0C05 /* MXParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MXParallaxHeader.framework; path = MXParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F9753E436AA109411B1F155DE7A0C05 /* MXParallaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MXParallaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98462AAA4FD970107CE5E4EA325795F1 /* MXScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXScrollView.m; path = MXParallaxHeader/MXScrollView.m; sourceTree = "<group>"; };
 		9A9A689E49F2992F0C211FCC10355EE5 /* MXSegmentedPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXSegmentedPager.m; path = SNPSegmentedPager/Classes/MXSegmentedPager.m; sourceTree = "<group>"; };
-		9E2DC2D86FA438BD4CDF4472E4236A3A /* SNPSegmentedPager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SNPSegmentedPager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2DC2D86FA438BD4CDF4472E4236A3A /* SNPSegmentedPager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SNPSegmentedPager.podspec; sourceTree = "<group>"; };
 		9F5C72D5F1B064E2AA8C8E19464EED2B /* SNPSegmentedPager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SNPSegmentedPager.modulemap; sourceTree = "<group>"; };
-		A0831E47F458F4E588A00E57BE01CC00 /* Pods_SNPSegmentedPager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNPSegmentedPager_Tests.framework; path = "Pods-SNPSegmentedPager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0831E47F458F4E588A00E57BE01CC00 /* Pods_SNPSegmentedPager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNPSegmentedPager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66A1578BB09CAB772D5B528E56FA0FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB9740515AD5E08F4EC70B7EDB360A8E /* MXScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXScrollView.h; path = MXParallaxHeader/MXScrollView.h; sourceTree = "<group>"; };
 		ABA57805A970D54707D4A1BFCA93943B /* MXScrollViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXScrollViewController.m; path = MXParallaxHeader/MXScrollViewController.m; sourceTree = "<group>"; };
@@ -142,10 +142,10 @@
 		C5B196A31035F5658546DF96C5D3756E /* MXPagerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXPagerView.m; path = MXPagerView/MXPagerView.m; sourceTree = "<group>"; };
 		CA882241B1080DD31B4F348BCA7866DC /* Pods-SNPSegmentedPager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNPSegmentedPager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB0E53A2A7E51922EF012BD5CC33A92C /* Pods-SNPSegmentedPager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNPSegmentedPager_Tests-resources.sh"; sourceTree = "<group>"; };
-		D01A737601428C844AC9AE36A0B1D3CF /* SNPSegmentedPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SNPSegmentedPager.framework; path = SNPSegmentedPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01A737601428C844AC9AE36A0B1D3CF /* SNPSegmentedPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNPSegmentedPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B2A911C1FE6E606594F8845C48CBCE /* MXPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MXPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5571CD663AE8392E8104D163D17DC78 /* ViewSegmentControll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewSegmentControll.swift; sourceTree = "<group>"; };
-		D7894ADB835087475626D17DAFBEEF4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D5571CD663AE8392E8104D163D17DC78 /* ViewSegmentControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewSegmentControl.swift; sourceTree = "<group>"; };
+		D7894ADB835087475626D17DAFBEEF4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D9A33EC13CA2CBBE74C9C86955EE6945 /* MXPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXPagerView.xcconfig; sourceTree = "<group>"; };
 		D9E8E94EC6292D247BC0CFD90E0D573C /* MXPagerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXPagerView.h; path = MXPagerView/MXPagerView.h; sourceTree = "<group>"; };
 		DD611C59FF801E8AD7E83B8C80ACC36F /* SNPSegmentedPager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNPSegmentedPager-umbrella.h"; sourceTree = "<group>"; };
@@ -216,14 +216,14 @@
 			path = "../Target Support Files/MXParallaxHeader";
 			sourceTree = "<group>";
 		};
-		197FCBC3B3C4231A61D0172D9B7EA699 /* ViewSegmentedControll */ = {
+		197FCBC3B3C4231A61D0172D9B7EA699 /* ViewSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
 				B7BCF06074FD5E23A114914397C5F3BC /* SegmentedView.swift */,
-				D5571CD663AE8392E8104D163D17DC78 /* ViewSegmentControll.swift */,
+				D5571CD663AE8392E8104D163D17DC78 /* ViewSegmentControl.swift */,
 			);
-			name = ViewSegmentedControll;
-			path = SNPSegmentedPager/Classes/ViewSegmentedControll;
+			name = ViewSegmentedControl;
+			path = SNPSegmentedPager/Classes/ViewSegmentedControl;
 			sourceTree = "<group>";
 		};
 		250CAE5AC26D4AD57C6EAE8BF8F14A7B /* Pods */ = {
@@ -258,7 +258,6 @@
 				6B393776444A9622ED9B1D6EFE41F946 /* MXPagerViewController.m */,
 				D5CBA93C0F216F01A55FD244A38CCAF1 /* Support Files */,
 			);
-			name = MXPagerView;
 			path = MXPagerView;
 			sourceTree = "<group>";
 		};
@@ -285,7 +284,6 @@
 				ABA57805A970D54707D4A1BFCA93943B /* MXScrollViewController.m */,
 				0D9A9C6F2444D2A9604169D7375A038A /* Support Files */,
 			);
-			name = MXParallaxHeader;
 			path = MXParallaxHeader;
 			sourceTree = "<group>";
 		};
@@ -355,7 +353,7 @@
 				FADFB3CC180AF3CE46B33A61C6467854 /* MXSegmentedPagerController.m */,
 				9D999F9BA6F24890D2A84D4765ED3A98 /* Pod */,
 				40A660AF9BA69FE86CFCC85797336BA8 /* Support Files */,
-				197FCBC3B3C4231A61D0172D9B7EA699 /* ViewSegmentedControll */,
+				197FCBC3B3C4231A61D0172D9B7EA699 /* ViewSegmentedControl */,
 			);
 			name = SNPSegmentedPager;
 			path = ../..;
@@ -562,7 +560,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -594,7 +592,7 @@
 				FD1D7F87B472446336C2F6D21ED94BE6 /* MXSegmentedPagerController.m in Sources */,
 				FDE04804976C3DD466E81990DC8E28F9 /* SegmentedView.swift in Sources */,
 				FF70BA3B50A7AC6A1AD418AAC33E0213 /* SNPSegmentedPager-dummy.m in Sources */,
-				6A5ADE672718204FCCF52DF0A46071B6 /* ViewSegmentControll.swift in Sources */,
+				6A5ADE672718204FCCF52DF0A46071B6 /* ViewSegmentControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1122,6 +1120,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

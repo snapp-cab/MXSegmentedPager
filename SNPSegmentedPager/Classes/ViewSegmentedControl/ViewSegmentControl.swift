@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc open class ViewSegmentControll: UIControl {
+@objc open class ViewSegmentControl: UIControl {
     public override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -65,7 +65,7 @@ import UIKit
             }else {
                 view.widthAnchor.constraint(equalTo: views[views.count-1].widthAnchor).isActive = true
             }
-            view.addTarget(self, action: #selector(pageSelected), for: UIControlEvents.touchUpInside)
+            view.addTarget(self, action: #selector(pageSelected), for: UIControl.Event.touchUpInside)
             
         }
         

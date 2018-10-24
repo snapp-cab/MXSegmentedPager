@@ -27,7 +27,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class ViewSegmentControll;
+@class ViewSegmentControl;
 @class SegmentedView;
 /**
  The segmented control position options relative to the segmented-pager.
@@ -210,7 +210,7 @@ typedef NS_ENUM(NSInteger, MXSegmentedControlPosition) {
 /**
  The segmented control. cf. [HMSegmentedControl](http://cocoadocs.org/docsets/HMSegmentedControl/1.5/) for customazation.
  */
-@property (nonatomic, readonly)  ViewSegmentControll *segmentedControl;
+@property (nonatomic, readonly)  ViewSegmentControl *segmentedControl;
 
 /**
  The segmented control position option.
