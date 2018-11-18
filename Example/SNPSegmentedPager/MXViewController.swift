@@ -51,7 +51,7 @@ class MXViewController: MXSegmentedPagerController {
         // Dispose of any resources that can be recreated.
     }
     
-    override  func views(for segmentedPager: MXSegmentedPager) -> [SegmentedView] {
+    @objc override func views(for segmentedPager: MXSegmentedPager) -> [SegmentedView] {
         let view1 = SegmentedView()
         view1.backgroundColor = UIColor.blue
         
@@ -62,17 +62,24 @@ class MXViewController: MXSegmentedPagerController {
         view3.backgroundColor = UIColor.cyan
         
         return [view1,view2,view3];
+        
     }
-    
-    override func indicatorColor(for segmentedPager: MXSegmentedPager) -> [UIColor] {
+    @objc override func indicatorColor(for segmentedPager: MXSegmentedPager) -> [UIColor] {
         return [UIColor.blue.withAlphaComponent(0.5),UIColor.red.withAlphaComponent(0.5),UIColor.cyan.withAlphaComponent(0.5)]
     }
     
-    override func indicatorHeigth(for segmentedPager: MXSegmentedPager) -> CGFloat {
+    @objc override func indicatorHeigth(for segmentedPager: MXSegmentedPager) -> CGFloat {
         return 5
     }
+    override func heightForSegmentedControl(in segmentedPager: MXSegmentedPager) -> CGFloat {
+        return 60
+    }
     
-    override func segmentedPager(_ segmentedPager: MXSegmentedPager, didScrollWith parallaxHeader: MXParallaxHeader) {
+    override func pageIndexAt(for segmentedPager: MXSegmentedPager) -> Int {
+        return 0
+    }
+    
+    @objc override func segmentedPager(_ segmentedPager: MXSegmentedPager, didScrollWith parallaxHeader: MXParallaxHeader) {
         print("progress \(parallaxHeader.progress)")
     }
 }

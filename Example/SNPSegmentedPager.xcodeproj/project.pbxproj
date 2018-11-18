@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11BB1E77EA40B77C61B5DB9A /* Pods_SNPSegmentedPager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426A72F41E3222CCDE94BBB2 /* Pods_SNPSegmentedPager_Example.framework */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6BC4151DEADBD5768D4FFF7D /* Pods_SNPSegmentedPager_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E97421DC136CB99124FC26F /* Pods_SNPSegmentedPager_Tests.framework */; };
+		C418473C21A16B7800EE1D3F /* Pods_SNPSegmentedPager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426A72F41E3222CCDE94BBB2 /* Pods_SNPSegmentedPager_Example.framework */; };
+		C418473D21A16B7800EE1D3F /* Pods_SNPSegmentedPager_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 426A72F41E3222CCDE94BBB2 /* Pods_SNPSegmentedPager_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C45A5E0F20D8D53000C47398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45A5E0D20D8D53000C47398 /* LaunchScreen.storyboard */; };
 		C45A5E1720D8D54300C47398 /* MXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45A5E1120D8D54300C47398 /* MXViewController.swift */; };
 		C45A5E1820D8D54300C47398 /* MXAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45A5E1220D8D54300C47398 /* MXAppDelegate.swift */; };
@@ -29,6 +30,20 @@
 			remoteInfo = SNPSegmentedPager;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C418473B21A16B5600EE1D3F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C418473D21A16B7800EE1D3F /* Pods_SNPSegmentedPager_Example.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2313C375660A627944FD6143 /* Pods-SNPSegmentedPager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNPSegmentedPager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNPSegmentedPager_Tests/Pods-SNPSegmentedPager_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -53,7 +68,7 @@
 		C45A5E1520D8D54300C47398 /* MXTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MXTableViewController.swift; sourceTree = "<group>"; };
 		C45A5E1620D8D54300C47398 /* MXTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MXTextViewController.swift; sourceTree = "<group>"; };
 		E2532D63B970C38FB254EB18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EC2D9F2620EE0386A10C30FA /* SNPSegmentedPager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SNPSegmentedPager.podspec; path = ../SNPSegmentedPager.podspec; sourceTree = "<group>"; };
+		EC2D9F2620EE0386A10C30FA /* SNPSegmentedPager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SNPSegmentedPager.podspec; path = ../SNPSegmentedPager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11BB1E77EA40B77C61B5DB9A /* Pods_SNPSegmentedPager_Example.framework in Frameworks */,
+				C418473C21A16B7800EE1D3F /* Pods_SNPSegmentedPager_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +197,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				B11FD7B2F7025654AD6D267E /* [CP] Embed Pods Frameworks */,
+				C418473B21A16B5600EE1D3F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,10 +239,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = QEHW524445;
 						LastSwiftMigration = 0940;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = QEHW524445;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -490,8 +508,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7A027F6366E3271F0D29C184 /* Pods-SNPSegmentedPager_Example.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QEHW524445;
 				INFOPLIST_FILE = SNPSegmentedPager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -500,7 +518,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "SNPSegmentedPager/SNPSegmentedPager_Example-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -508,8 +526,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DF4BD4EDE5D139C1DF6A163 /* Pods-SNPSegmentedPager_Example.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = QEHW524445;
 				INFOPLIST_FILE = SNPSegmentedPager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -517,7 +535,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SNPSegmentedPager/SNPSegmentedPager_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -526,6 +544,7 @@
 			baseConfigurationReference = 68627CA7C218FE0EECF137C6 /* Pods-SNPSegmentedPager_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QEHW524445;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -548,6 +567,7 @@
 			baseConfigurationReference = 2313C375660A627944FD6143 /* Pods-SNPSegmentedPager_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QEHW524445;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

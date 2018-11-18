@@ -21,6 +21,7 @@
 // THE SOFTWARE.
 
 #import "MXSegmentedPagerController.h"
+#import <SNPSegmentedPager/SNPSegmentedPager-Swift.h>
 
 @interface MXSegmentedPagerController () <MXPageSegueSource>
 @property (nonatomic, strong) NSMutableDictionary<NSNumber *, UIViewController *> *pageViewControllers;
@@ -43,6 +44,7 @@
         _segmentedPager = [MXSegmentedPager new];
         _segmentedPager.delegate    = self;
         _segmentedPager.dataSource  = self;
+       
     }
     return _segmentedPager;
 }
@@ -103,11 +105,6 @@
 - (NSInteger)pageIndex {
     return _pageIndex;
 }
-
-- (void)setPageViewController:(__kindof UIViewController *)pageViewController atIndex:(NSInteger)index {
-    self.pageViewControllers[@(index)] = pageViewController;
-}
-
 
 
 @end

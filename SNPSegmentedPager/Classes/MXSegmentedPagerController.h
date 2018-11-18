@@ -63,6 +63,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, strong, readonly) MXSegmentedPager *segmentedPager;
 
+//- (CGFloat)heightForSegmentedControlInSegmentedPager:(MXSegmentedPager *)segmentedPager;
 @end
 
 NS_ASSUME_NONNULL_END

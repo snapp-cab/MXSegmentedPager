@@ -1,6 +1,6 @@
 {
   "name": "SNPSegmentedPager",
-  "version": "0.1.1",
+  "version": "4.0.0",
   "summary": "Segmented pager view with Parallax header.",
   "description": "MXSegmentedPager combines [MXPagerView](https://github.com/maxep/MXPagerView) with [HMSegmentedControl](https://github.com/HeshamMegid/HMSegmentedControl) to control the page selection.\nThe integration of [MXParallaxHeader](https://github.com/maxep/MXParallaxHeader) allows you to add an parallax header on top while keeping a reliable scrolling effect.",
   "homepage": "https://github.com/snapp-cab/SNPSegmentedPager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/snapp-cab/SNPSegmentedPager.git",
-    "tag": "0.1.1"
+    "tag": "4.0.0"
   },
   "swift_version": "4.2",
   "platforms": {

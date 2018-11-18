@@ -27,18 +27,18 @@
 		6542EE36BF0E5A7E32994598741ECBCD /* Pods-SNPSegmentedPager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D869B850458B74F237363918186A2D0 /* Pods-SNPSegmentedPager_Example-dummy.m */; };
 		6618AD73EDAA2092437280F3081CD0DE /* MXPagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E1BAEDB4609AF31E6B35BD93519A89 /* MXPagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66F7138DB7156AF6A0DCCA335E489E49 /* SNPSegmentedPager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD611C59FF801E8AD7E83B8C80ACC36F /* SNPSegmentedPager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A5ADE672718204FCCF52DF0A46071B6 /* ViewSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5571CD663AE8392E8104D163D17DC78 /* ViewSegmentControl.swift */; };
 		933741DB7C6CA9CA7BD096A0BD3AFA1A /* MXParallaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD98A86A55B756815668D3BAF495EA6 /* MXParallaxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93EFD9DBF4CC4DAB6D73F2A1115860F9 /* MXParallaxHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA1B9902969A85999F3C4457580E1E6 /* MXParallaxHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95E15733F2BCC3173EC5C55D3998B717 /* MXScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98462AAA4FD970107CE5E4EA325795F1 /* MXScrollView.m */; };
 		AD264987FB7B443C6FBBC3C7987020DB /* MXPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B393776444A9622ED9B1D6EFE41F946 /* MXPagerViewController.m */; };
 		B69CF6AD4E33207861187973C7834EF3 /* MXPagerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 729F4422C77657F6E3F7B7C3235BC21C /* MXPagerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C418472821A162DD00EE1D3F /* ViewSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C418472621A162BE00EE1D3F /* ViewSegmentControl.swift */; };
+		C418472921A162E000EE1D3F /* SegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C418472721A162BE00EE1D3F /* SegmentedView.swift */; };
 		CC7CBD54B3B3BD5148D8AB9FC71E7F62 /* MXPagerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E8E94EC6292D247BC0CFD90E0D573C /* MXPagerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD7F0934DFC9932B8AE2BF026EA2283C /* Pods-SNPSegmentedPager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EC977CD89D9C4833575447B1DDE09D /* Pods-SNPSegmentedPager_Tests-dummy.m */; };
 		CF7AEDC10DFA19EE70C372D30C6858D4 /* MXParallaxHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4677B4FC482C95F99B8426E302712919 /* MXParallaxHeader-dummy.m */; };
 		FC07C9DF7DFEE45A3906B0513717D0EC /* MXScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9740515AD5E08F4EC70B7EDB360A8E /* MXScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD1D7F87B472446336C2F6D21ED94BE6 /* MXSegmentedPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADFB3CC180AF3CE46B33A61C6467854 /* MXSegmentedPagerController.m */; };
-		FDE04804976C3DD466E81990DC8E28F9 /* SegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BCF06074FD5E23A114914397C5F3BC /* SegmentedView.swift */; };
 		FF70BA3B50A7AC6A1AD418AAC33E0213 /* SNPSegmentedPager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE9DC6B4940E6CD7CFE0E29A091E69F /* SNPSegmentedPager-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -127,7 +127,7 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98462AAA4FD970107CE5E4EA325795F1 /* MXScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXScrollView.m; path = MXParallaxHeader/MXScrollView.m; sourceTree = "<group>"; };
 		9A9A689E49F2992F0C211FCC10355EE5 /* MXSegmentedPager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXSegmentedPager.m; path = SNPSegmentedPager/Classes/MXSegmentedPager.m; sourceTree = "<group>"; };
-		9E2DC2D86FA438BD4CDF4472E4236A3A /* SNPSegmentedPager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SNPSegmentedPager.podspec; sourceTree = "<group>"; };
+		9E2DC2D86FA438BD4CDF4472E4236A3A /* SNPSegmentedPager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SNPSegmentedPager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F5C72D5F1B064E2AA8C8E19464EED2B /* SNPSegmentedPager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SNPSegmentedPager.modulemap; sourceTree = "<group>"; };
 		A0831E47F458F4E588A00E57BE01CC00 /* Pods_SNPSegmentedPager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNPSegmentedPager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66A1578BB09CAB772D5B528E56FA0FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -135,16 +135,16 @@
 		ABA57805A970D54707D4A1BFCA93943B /* MXScrollViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXScrollViewController.m; path = MXParallaxHeader/MXScrollViewController.m; sourceTree = "<group>"; };
 		ABF48BBA69960D5F39E4CA35CCDE05DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2FFA91AB40F53E7E337B10D69CBD6F2 /* MXParallaxHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MXParallaxHeader.modulemap; sourceTree = "<group>"; };
-		B7BCF06074FD5E23A114914397C5F3BC /* SegmentedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentedView.swift; sourceTree = "<group>"; };
 		BA285622E6DD4A6BA658CEADE91CC1D1 /* MXPagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXPagerView-dummy.m"; sourceTree = "<group>"; };
 		C20312F60BC3FF806899409B836240EB /* SNPSegmentedPager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNPSegmentedPager-prefix.pch"; sourceTree = "<group>"; };
 		C3B8F15CABD004FBFFED2C0724B6A5E8 /* MXParallaxHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXParallaxHeader-prefix.pch"; sourceTree = "<group>"; };
+		C418472621A162BE00EE1D3F /* ViewSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSegmentControl.swift; sourceTree = "<group>"; };
+		C418472721A162BE00EE1D3F /* SegmentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedView.swift; sourceTree = "<group>"; };
 		C5B196A31035F5658546DF96C5D3756E /* MXPagerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXPagerView.m; path = MXPagerView/MXPagerView.m; sourceTree = "<group>"; };
 		CA882241B1080DD31B4F348BCA7866DC /* Pods-SNPSegmentedPager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNPSegmentedPager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB0E53A2A7E51922EF012BD5CC33A92C /* Pods-SNPSegmentedPager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNPSegmentedPager_Tests-resources.sh"; sourceTree = "<group>"; };
 		D01A737601428C844AC9AE36A0B1D3CF /* SNPSegmentedPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNPSegmentedPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B2A911C1FE6E606594F8845C48CBCE /* MXPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MXPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5571CD663AE8392E8104D163D17DC78 /* ViewSegmentControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewSegmentControl.swift; sourceTree = "<group>"; };
 		D7894ADB835087475626D17DAFBEEF4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D9A33EC13CA2CBBE74C9C86955EE6945 /* MXPagerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXPagerView.xcconfig; sourceTree = "<group>"; };
 		D9E8E94EC6292D247BC0CFD90E0D573C /* MXPagerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXPagerView.h; path = MXPagerView/MXPagerView.h; sourceTree = "<group>"; };
@@ -214,16 +214,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MXParallaxHeader";
-			sourceTree = "<group>";
-		};
-		197FCBC3B3C4231A61D0172D9B7EA699 /* ViewSegmentedControl */ = {
-			isa = PBXGroup;
-			children = (
-				B7BCF06074FD5E23A114914397C5F3BC /* SegmentedView.swift */,
-				D5571CD663AE8392E8104D163D17DC78 /* ViewSegmentControl.swift */,
-			);
-			name = ViewSegmentedControl;
-			path = SNPSegmentedPager/Classes/ViewSegmentedControl;
 			sourceTree = "<group>";
 		};
 		250CAE5AC26D4AD57C6EAE8BF8F14A7B /* Pods */ = {
@@ -351,9 +341,9 @@
 				9A9A689E49F2992F0C211FCC10355EE5 /* MXSegmentedPager.m */,
 				8CEDFF64C2583ACCE938B5882DFDD419 /* MXSegmentedPagerController.h */,
 				FADFB3CC180AF3CE46B33A61C6467854 /* MXSegmentedPagerController.m */,
+				C418472521A162BE00EE1D3F /* ViewSegmentedControl */,
 				9D999F9BA6F24890D2A84D4765ED3A98 /* Pod */,
 				40A660AF9BA69FE86CFCC85797336BA8 /* Support Files */,
-				197FCBC3B3C4231A61D0172D9B7EA699 /* ViewSegmentedControl */,
 			);
 			name = SNPSegmentedPager;
 			path = ../..;
@@ -367,6 +357,16 @@
 				9CCF9D5CE9D9E06215B42B611B942D0D /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C418472521A162BE00EE1D3F /* ViewSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				C418472621A162BE00EE1D3F /* ViewSegmentControl.swift */,
+				C418472721A162BE00EE1D3F /* SegmentedView.swift */,
+			);
+			name = ViewSegmentedControl;
+			path = SNPSegmentedPager/Classes/ViewSegmentedControl;
 			sourceTree = "<group>";
 		};
 		D5CBA93C0F216F01A55FD244A38CCAF1 /* Support Files */ = {
@@ -560,7 +560,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -589,10 +589,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CAE990423301B2BBBC7D1E64DB6C5E5 /* MXSegmentedPager.m in Sources */,
+				C418472921A162E000EE1D3F /* SegmentedView.swift in Sources */,
 				FD1D7F87B472446336C2F6D21ED94BE6 /* MXSegmentedPagerController.m in Sources */,
-				FDE04804976C3DD466E81990DC8E28F9 /* SegmentedView.swift in Sources */,
+				C418472821A162DD00EE1D3F /* ViewSegmentControl.swift in Sources */,
 				FF70BA3B50A7AC6A1AD418AAC33E0213 /* SNPSegmentedPager-dummy.m in Sources */,
-				6A5ADE672718204FCCF52DF0A46071B6 /* ViewSegmentControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -949,6 +949,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "Target Support Files/MXParallaxHeader/MXParallaxHeader-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MXParallaxHeader/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1120,7 +1121,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

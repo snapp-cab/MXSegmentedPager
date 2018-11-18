@@ -83,7 +83,6 @@ import UIKit
             indicatorLeading = indicator?.leftAnchor.constraint(equalTo: tabViews![selectedSegmentIndex].leftAnchor)
             indicatorLeading?.isActive = true
 
-
         }
 
         
